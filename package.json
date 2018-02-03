@@ -1,0 +1,43 @@
+{
+  "name": "cs_app",
+  "version": "1.0.0",
+  "description": "beta scheduling app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "^7.3.0",
+    "lodash": "^4.7.0",
+    "mongoose": "^4.7.9",
+    "passport": "*",
+    "passport-jwt": "*",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.1",
+    "ts-helpers": "^1.1.1",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.38",
+    "@types/node": "^6.0.42",
+    "codelyzer": "~2.0.0-beta.1",
+    "jasmine-core": "2.5.2",
+    "jasmine-spec-reporter": "2.5.0",
+    "karma": "1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
+    "karma-jasmine": "^1.0.2",
+    "protractor": "~5.1.0",
+    "ts-node": "1.2.1",
+    "tslint": "^4.3.0",
+    "typescript": "~2.0.0"
+  },
+  "author": "Andrew Shephard",
+  "license": "ISC"
+}
