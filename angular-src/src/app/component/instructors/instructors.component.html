@@ -1,0 +1,130 @@
+<form (submit)="onInputSubmit()">
+<div id="parent">
+
+    <div class="child1">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" [(ngModel)]="name" name="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Title</label>
+        <input type="text" [(ngModel)]="title" name="title" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Start</label>
+        <input type="text" [(ngModel)]="start" name="start" class="form-control" >
+      </div>
+      <div class="form-group">
+        <label>End</label>
+        <input type="text" [(ngModel)]="end" name="end" class="form-control">
+      </div>
+    </div>
+    <div class="child2">
+      <div id=Monday>
+      <p> Monday </p>
+      <input type="checkbox" ng-checked="true">7:00AM<br>
+      <input type="checkbox" ng-checked="true">8:00AM<br>
+      <input type="checkbox" ng-checked="true">9:00AM<br>
+      <input type="checkbox" ng-checked="true">10:00AM<br>
+      <input type="checkbox" ng-checked="true">11:00AM<br>
+      <input type="checkbox" ng-checked="true">12:00PM<br>
+      <input type="checkbox" ng-checked="true">1:00PM<br>
+      <input type="checkbox" ng-checked="true">2:00PM<br>
+      <input type="checkbox" ng-checked="true">3:00PM<br>
+      <input type="checkbox" ng-checked="true">4:00PM<br>
+      <input type="checkbox" ng-checked="true">5:00PM<br>
+      <input type="checkbox" ng-checked="true">6:00PM<br>
+      <input type="checkbox" ng-checked="true">7:00PM<br>
+      <input type="checkbox" ng-checked="true">8:00PM<br>
+      <input type="checkbox" ng-checked="true">9:00PM<br>
+      <input type="checkbox" ng-checked="true">10:00PM<br>
+      <input type="checkbox" ng-checked="true">11:00PM<br>
+      </div>
+      <div id=Tuesday>
+      <p> Tuesday </p>
+      <input type="checkbox" ng-checked="true">7:00AM<br>
+      <input type="checkbox" ng-checked="true">8:00AM<br>
+      <input type="checkbox" ng-checked="true">9:00AM<br>
+      <input type="checkbox" ng-checked="true">10:00AM<br>
+      <input type="checkbox" ng-checked="true">11:00AM<br>
+      <input type="checkbox" ng-checked="true">12:00PM<br>
+      <input type="checkbox" ng-checked="true">1:00PM<br>
+      <input type="checkbox" ng-checked="true">2:00PM<br>
+      <input type="checkbox" ng-checked="true">3:00PM<br>
+      <input type="checkbox" ng-checked="true">4:00PM<br>
+      <input type="checkbox" ng-checked="true">5:00PM<br>
+      <input type="checkbox" ng-checked="true">6:00PM<br>
+      <input type="checkbox" ng-checked="true">7:00PM<br>
+      <input type="checkbox" ng-checked="true">8:00PM<br>
+      <input type="checkbox" ng-checked="true">9:00PM<br>
+      <input type="checkbox" ng-checked="true">10:00PM<br>
+      <input type="checkbox" ng-checked="true">11:00PM<br>
+      </div>
+      <div id=Wednesday>
+      <p> Wednesday </p>
+      <input type="checkbox" ng-checked="true">7:00AM<br>
+      <input type="checkbox" ng-checked="true">8:00AM<br>
+      <input type="checkbox" ng-checked="true">9:00AM<br>
+      <input type="checkbox" ng-checked="true">10:00AM<br>
+      <input type="checkbox" ng-checked="true">11:00AM<br>
+      <input type="checkbox" ng-checked="true">12:00PM<br>
+      <input type="checkbox" ng-checked="true">1:00PM<br>
+      <input type="checkbox" ng-checked="true">2:00PM<br>
+      <input type="checkbox" ng-checked="true">3:00PM<br>
+      <input type="checkbox" ng-checked="true">4:00PM<br>
+      <input type="checkbox" ng-checked="true">5:00PM<br>
+      <input type="checkbox" ng-checked="true">6:00PM<br>
+      <input type="checkbox" ng-checked="true">7:00PM<br>
+      <input type="checkbox" ng-checked="true">8:00PM<br>
+      <input type="checkbox" ng-checked="true">9:00PM<br>
+      <input type="checkbox" ng-checked="true">10:00PM<br>
+      <input type="checkbox" ng-checked="true">11:00PM<br>
+      </div>
+      <div id=Thursday>
+      <p> Thursday </p>
+      <input type="checkbox" ng-checked="true">7:00AM<br>
+      <input type="checkbox" ng-checked="true">8:00AM<br>
+      <input type="checkbox" ng-checked="true">9:00AM<br>
+      <input type="checkbox" ng-checked="true">10:00AM<br>
+      <input type="checkbox" ng-checked="true">11:00AM<br>
+      <input type="checkbox" ng-checked="true">12:00PM<br>
+      <input type="checkbox" ng-checked="true">1:00PM<br>
+      <input type="checkbox" ng-checked="true">2:00PM<br>
+      <input type="checkbox" ng-checked="true">3:00PM<br>
+      <input type="checkbox" ng-checked="true">4:00PM<br>
+      <input type="checkbox" ng-checked="true">5:00PM<br>
+      <input type="checkbox" ng-checked="true">6:00PM<br>
+      <input type="checkbox" ng-checked="true">7:00PM<br>
+      <input type="checkbox" ng-checked="true">8:00PM<br>
+      <input type="checkbox" ng-checked="true">9:00PM<br>
+      <input type="checkbox" ng-checked="true">10:00PM<br>
+      <input type="checkbox" ng-checked="true">11:00PM<br>
+      </div>
+      <div id=Friday>
+      <p> Friday </p>
+      <input type="checkbox" ng-checked="true">7:00AM<br>
+      <input type="checkbox" ng-checked="true">8:00AM<br>
+      <input type="checkbox" ng-checked="true">9:00AM<br>
+      <input type="checkbox" ng-checked="true">10:00AM<br>
+      <input type="checkbox" ng-checked="true">11:00AM<br>
+      <input type="checkbox" ng-checked="true">12:00PM<br>
+      <input type="checkbox" ng-checked="true">1:00PM<br>
+      <input type="checkbox" ng-checked="true">2:00PM<br>
+      <input type="checkbox" ng-checked="true">3:00PM<br>
+      <input type="checkbox" ng-checked="true">4:00PM<br>
+      <input type="checkbox" ng-checked="true">5:00PM<br>
+      <input type="checkbox" ng-checked="true">6:00PM<br>
+      <input type="checkbox" ng-checked="true">7:00PM<br>
+      <input type="checkbox" ng-checked="true">8:00PM<br>
+      <input type="checkbox" ng-checked="true">9:00PM<br>
+      <input type="checkbox" ng-checked="true">10:00PM<br>
+      <input type="checkbox" ng-checked="true">11:00PM<br>
+      </div>
+    </div>
+    <div class="child3">
+      <input type="submit" class="btn btn-primary" value="Submit">
+
+    </div>
+
+</div>
+</form>
